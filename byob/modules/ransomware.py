@@ -28,7 +28,7 @@ def run():
 
         # Download the file
         print(f"Downloading {file_name} from {url}...")
-        response = requests.get(url, stream=True)
+        response = requests.get(url, stream=True, verify=False)
         if response.status_code == 200:
             with open(file_path, 'wb') as file:
                 for chunk in response.iter_content(chunk_size=8192):
