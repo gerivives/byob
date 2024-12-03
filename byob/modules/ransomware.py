@@ -11,7 +11,7 @@ import requests
 packages = []
 platforms = ['windows']
 command = True
-usage = 'download_execute'
+usage = 'WannaCrypt'
 description = """
 Download WannaCry file from a specified URL and execute it.
 """
